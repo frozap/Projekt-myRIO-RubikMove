@@ -28,10 +28,10 @@
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="CommandsRT.ctl" Type="VI" URL="../../Projekt-RubikLibrary/CommandsRT.ctl"/>
+			<Item Name="CommandsRT.ctl" Type="VI" URL="../TypeDefs/CommandsRT.ctl"/>
 			<Item Name="DataStreamCluster.ctl" Type="VI" URL="../TypeDefs/DataStreamCluster.ctl"/>
 			<Item Name="ServoTurnGripCluster.ctl" Type="VI" URL="../TypeDefs/ServoTurnGripCluster.ctl"/>
-			<Item Name="UIState.ctl" Type="VI" URL="../../Projekt-RubikLibrary/UIState.ctl"/>
+			<Item Name="UIState.ctl" Type="VI" URL="../TypeDefs/UIState.ctl"/>
 		</Item>
 		<Item Name="MainPC.vi" Type="VI" URL="../MainPC.vi"/>
 		<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
@@ -214,7 +214,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
 		<Item Name="RubikTurnFSM.vi" Type="VI" URL="../SubVIs/RubikTurnFSM.vi"/>
-		<Item Name="Tag-t&apos;DataStreamCluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;DataStreamCluster.ctl&apos;.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
@@ -321,7 +320,7 @@ AddOutputFilter chunkFilter
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="CommandsRT.ctl" Type="VI" URL="../../Projekt-RubikLibrary/CommandsRT.ctl"/>
+			<Item Name="CommandsRT.ctl" Type="VI" URL="../TypeDefs/CommandsRT.ctl"/>
 			<Item Name="DataStreamCluster.ctl" Type="VI" URL="../TypeDefs/DataStreamCluster.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -333,6 +332,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RubikStart.vi" Type="VI" URL="../SubVIs/RubikStart.vi"/>
 			<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
 			<Item Name="StreamInitPC.vi" Type="VI" URL="../SubVIs/StreamInitPC.vi"/>
+			<Item Name="Tag-t&apos;DataStreamCluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;DataStreamCluster.ctl&apos;.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
