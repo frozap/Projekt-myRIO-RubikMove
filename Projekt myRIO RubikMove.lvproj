@@ -12,6 +12,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">1</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -27,6 +28,13 @@
 			</Item>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="RubikStart.vi" Type="VI" URL="../SubVIs/RubikStart.vi"/>
+			<Item Name="RubikTurnFSM.vi" Type="VI" URL="../SubVIs/RubikTurnFSM.vi"/>
+			<Item Name="RubikTurnFSM2.vi" Type="VI" URL="../SubVIs/RubikTurnFSM2.vi"/>
+			<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
+			<Item Name="StreamInitPC.vi" Type="VI" URL="../SubVIs/StreamInitPC.vi"/>
+		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="CommandsRT.ctl" Type="VI" URL="../TypeDefs/CommandsRT.ctl"/>
 			<Item Name="DataStreamCluster.ctl" Type="VI" URL="../TypeDefs/DataStreamCluster.ctl"/>
@@ -35,8 +43,6 @@
 		</Item>
 		<Item Name="MainPC.vi" Type="VI" URL="../MainPC.vi"/>
 		<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
-		<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
-		<Item Name="StreamInitPC.vi" Type="VI" URL="../SubVIs/StreamInitPC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -214,8 +220,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
-		<Item Name="RubikTurnFSM.vi" Type="VI" URL="../SubVIs/RubikTurnFSM.vi"/>
-		<Item Name="RubikTurnFSM2.vi" Type="VI" URL="../SubVIs/RubikTurnFSM2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
@@ -320,6 +324,8 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RubikLibrary.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibrary.lvlib"/>
+			<Item Name="RubikTurnFSM.vi" Type="VI" URL="../SubVIs/RubikTurnFSM.vi"/>
+			<Item Name="RubikTurnFSM2.vi" Type="VI" URL="../SubVIs/RubikTurnFSM2.vi"/>
 			<Item Name="ServoTurnGripCluster.ctl" Type="VI" URL="../TypeDefs/ServoTurnGripCluster.ctl"/>
 			<Item Name="Stream-t&apos;DataStreamCluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;DataStreamCluster.ctl&apos;.lvlib"/>
 			<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
