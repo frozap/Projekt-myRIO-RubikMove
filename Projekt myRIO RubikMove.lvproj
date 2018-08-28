@@ -26,7 +26,7 @@
 			<Item Name="Documentation Images" Type="Folder">
 				<Item Name="myRIO_Project_Diagram.gif" Type="Document" URL="../documentation/myRIO_Project_Diagram.gif"/>
 			</Item>
-			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
+			<Item Name="myRIO RubikMove Documentation.html" Type="Document" URL="../documentation/myRIO RubikMove Documentation.html"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
@@ -218,8 +218,8 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="RubikStart.vi" Type="VI" URL="../SubVIs/RubikStart.vi"/>
+			<Item Name="RubikTurn.vi" Type="VI" URL="../SubVIs/RubikTurn.vi"/>
 			<Item Name="RubikTurnFSM.vi" Type="VI" URL="../SubVIs/RubikTurnFSM.vi"/>
-			<Item Name="RubikTurnFSM2.vi" Type="VI" URL="../SubVIs/RubikTurnFSM2.vi"/>
 		</Item>
 		<Item Name="MainRT.vi" Type="VI" URL="../MainRT.vi"/>
 		<Item Name="RubikLibraryRT.lvlib" Type="Library" URL="../../Projekt-RubikLibrary/RubikLibraryRT.lvlib"/>
