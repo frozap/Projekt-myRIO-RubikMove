@@ -217,7 +217,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="RubikStart.vi" Type="VI" URL="../SubVIs/RubikStart.vi"/>
 			<Item Name="RubikTurn.vi" Type="VI" URL="../SubVIs/RubikTurn.vi"/>
 			<Item Name="RubikTurnFSM.vi" Type="VI" URL="../SubVIs/RubikTurnFSM.vi"/>
 		</Item>
