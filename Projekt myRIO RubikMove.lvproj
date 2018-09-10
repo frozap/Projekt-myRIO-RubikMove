@@ -30,7 +30,7 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
-			<Item Name="StreamInitPC.vi" Type="VI" URL="../SubVIs/StreamInitPC.vi"/>
+			<Item Name="StreamInit.vi" Type="VI" URL="../SubVIs/StreamInit.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="CommandsRT.ctl" Type="VI" URL="../TypeDefs/CommandsRT.ctl"/>
@@ -315,7 +315,6 @@ AddOutputFilter chunkFilter
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="CommandsRT.ctl" Type="VI" URL="../TypeDefs/CommandsRT.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -328,7 +327,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ServoTurnGripCluster.ctl" Type="VI" URL="../TypeDefs/ServoTurnGripCluster.ctl"/>
 			<Item Name="Stream-t&apos;DataStreamCluster.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;DataStreamCluster.ctl&apos;.lvlib"/>
 			<Item Name="StreamErrorFilter.vi" Type="VI" URL="../SubVIs/StreamErrorFilter.vi"/>
-			<Item Name="StreamInitPC.vi" Type="VI" URL="../SubVIs/StreamInitPC.vi"/>
+			<Item Name="StreamInit.vi" Type="VI" URL="../SubVIs/StreamInit.vi"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
